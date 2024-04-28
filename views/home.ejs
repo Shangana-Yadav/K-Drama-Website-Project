@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>$YkDramaBliss</title>
+  <link rel="shortcut icon" href="/Images/LOGO.png" type="image/x-icon">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link href="./static/style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="static/bootstrap.min.css">
+  <link rel="stylesheet" href="static/style-min.css">
+  <link rel="stylesheet" href="/card.css">
+</head>
+
+<!------------------------Scroll to top button------------------------------------------------>
+
+<script>
+  setTimeout(function () {
+    $('.section').fadeToggle();
+  }, 4000); 
+</script>
+
+<body>
+  <section class="section">
+    <div>
+      <img src="/Images/LOGO DARK.png">
+    </div>
+  </section>
+
+  <div class="scroll-bar">
+    <!-- Navbar starts  -->
+    <nav class="menu navbar navbar-expand-lg navbar-light bg-dark" id="header-nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/"><img class="logo" src="/Images/LOGO.png" alt="" width="30"
+            height="24"></a>
+        <button class="navbar-toggler" id="nav" style="background-color: rgb(239, 132, 239)" type="button"
+          data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" style="background-color:dark-grey;"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" style>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/movies">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/web-series">Kdramas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/kids">Kids</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/tv">TV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/premium">Premium</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/login">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contactus">Contact Us</a>
+            </li>
+          </ul>
+
+          <!-- off canva starts -->
+
+          <a class="btn btn-outline-purple" id="variety" data-bs-toggle="offcanvas" href="#offcanvasExample"
+            role="button" aria-controls="offcanvasExample" style="margin: 10">
+            Have a Look at Various Kdramas!
+          </a>
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header" style="color: #fff; background-color: #EF84EF">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Varieties</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body" style="color: aliceblue; background-color: #5D225D;">
+              <div>
+                Stream Latest kDramas Now!
+              </div>
+              <div class="dropdown mt-3">
+                <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton"
+                  data-bs-toggle="dropdown">
+                  Varieties
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton"
+                  style="background-color:#EF84EF; color: white; ">
+                  <li><a class="dropdown-item" href="/popular">Popular</a> </li>
+                  <li><a class="dropdown-item" href="/crime">Crime</a></li>
+                  <li><a class="dropdown-item" href="/suspense" style="font-size: 14px">Suspense & Thriller</a></li>
+                  <li><a class="dropdown-item" href="/action">Action</a></li>
+                  <li><a class="dropdown-item" href="/fantasy" style="font-size: 14px">Sci-Fi & Fantasy</a></li>                  
+                  <li><a class="dropdown-item" href="/horror">Horror</a></li>                 
+                  <li><a class="dropdown-item" href="/drama">Drama</a></li>
+                  <li><a class="dropdown-item" href="/comedy">Comedy</a></li>
+                  <li><a class="dropdown-item" href="/romance">Romance</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- off canva ends -->
+          <form id="searchForm" class="d-flex">
+            <input class="form-control me-2" type="text" id="searchText" placeholder="Search" aria-label="Search">
+            <button class="btn btn-danger" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar Ends  -->
+    <marquee>Welcome To <i>$YkDramaBliss</i>.com<sup>&reg;</sup></marquee>
+    <label class="online" style="text-align: center; display: block; font-size: 30px;">The Hottest K-Dramas Await! Start Streaming Today.</label>
+
+
+    <div class="buddy">
+      <marquee behavior="alternate" direction="left" scrollamount="8.4">
+        <div class="slider">
+          <div class="slide_track">
+
+            <div class="slide">
+              <img src="/Images/vinchenzo.jpg" alt="super girl">
+            </div>
+            <div class="slide">
+              <img src="/Images/pandora.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="/Images/sweet home.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="/Images/time to hunt.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="/Images/tomorrow.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="/Images/larva.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="/Images/law school.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="/Images/ashin of the north.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="/Images/my demon.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="/Images/high society.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="/Images/night in paradise.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="/Images/hello jadoo.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="/Images/Train to busan.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="/Images/super wings.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="/Images/Kingdom.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="/Images/20th Century Girl.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="/Images/Hotel del luna.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="/Images/the glory.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="/Images/paw petrol.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="/Images/alive.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="/Images/Queen of tears.webp" alt="">
+            </div>
+            <div class="slide">
+              <img src="/Images/Robocar poli.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="/Images/business proposal.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="/Images/the eight night.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </marquee>
+    </div>
+
+    <div class="maincontainer">
+
+
+      <!---first block -->
+
+      <h2 style="text-align: center;">Movies</h2>
+      <hr>
+      <div class="container" id="Movies">
+        <hr>
+        <div class="posters-container">
+          <div class="poster">
+            <div class="flip-card_i">
+              <div class="flip-card-inner_i">
+                <div class="flip-card-front_i">
+                  <img src="/Images/Ballerina.jpg" alt="Avatar" style="width:250px;height:360px;">
+                </div>
+                <div class="flip-card-back_i">
+                  <h1>Ballerina</h1>
+                  <button class="btn_i b3_i" title="Year" style="color:white">2023</button>
+                  <button class="btn_i b2_i" title="Minutes" style="color:white">1h 33m<button>
+                      <button class="btn_i b1_i" title="IMDb" style="color:white">8.8</button>
+                      </span>
+                      <br />
+                      <br />
+                      </p>
+                      <p class="para_i">Grieving the loss of a best friend she couldn’t protect, ex-bodyguard Ok-ju sets
+                        out to fulfill her dear friend’s last wish: sweet, sweet revenge.</p>
+
+                      <form action="https://youtu.be/IhXfUTGVEUI">
+                        <input class="trailer_i" type="submit" value="▶Trailer" />
+                      </form>
+
+                      <a href="/Ballerina_2023_Hindi_Dubbed_Full_Movie_HDRip_(FilmyZilla.vin).mp4" class="play-button_i">
+                        <img src="/Images/play button.jpg" alt="Play button icon" />
+                    </a>
+
+                </div>
+                <div class="flim">
+                  <b>Ballerina</b>
+                  <br>
+                  IMDb - 8.8
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="poster">
+            <div class="flip-card_i">
+              <div class="flip-card-inner_i">
+                <div class="flip-card-front_i">
+                  <img src="/Images/Parasite.jpg" alt="Avatar" style="width:250px;height:360px;">
+                </div>
+                <div class="flip-card-back_i">
+                  <h1>Parasite</h1>
+                  <button class="btn_i b3_i" title="Year" style="color:white">2019</button>
+                  <button class="btn_i b2_i" title="Minutes" style="color:white">2h 12m<button>
+                      <button class="btn_i b1_i" title="IMDb" style="color:white">8.6</button>
+                      </span>
+                      <br />
+                      <br />
+                      </p>
+                      <p class="para_i">The struggling Kim family sees an opportunity when the son starts working for
+                        the wealthy Park family. Soon, all of them find a way to work within the same household and
+                        start living a parasitic life.</p>
+
+                      <form action="https://youtu.be/SEUXfv87Wpk">
+                        <input class="trailer_i" type="submit" value="▶Trailer" />
+                      </form>
+
+                      <a href="https://youtu.be/SEUXfv87Wpk" class="play-button_i">
+                        <img src="play_button_icon.png" alt="Play button icon" />
+                    </a>
+
+                </div>
+                <div class="flim">
+                  <b>Parasite</b>
+                  <br>
+                  IMDb - 8.6
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="poster">
+            <div class="flip-card_i">
+              <div class="flip-card-inner_i">
+                <div class="flip-card-front_i">
+                  <img src="/Images/The call.jpg" alt="Avatar" style="width:250px;height:360px;">
+                </div>
+                <div class="flip-card-back_i">
+                  <h1>The Call</h1>
+                  <button class="btn_i b3_i" title="Year" style="color:white">2020</button>
+                  <button class="btn_i b2_i" title="Minutes" style="color:white">1h 52m<button>
+                      <button class="btn_i b1_i" title="IMDb" style="color:white">9.3</button>
+                      </span>
+                      <br />
+                      <br />
+                      </p>
+                      <p class="para_i" style="margin-top: -20px;">Connected by phone in the same home but 20 years
+                        apart, a serial killer puts another woman’s past — and life — on the line to change her own
+                        fate.</p>
+
+                      <form action="https://youtu.be/hxkKeniT-0Q">
+                        <input class="trailer_i" type="submit" value="▶Trailer" />
+                      </form>
+
+                </div>
+                <div class="flim">
+                  <b>The Call</b>
+                  <br>
+                  IMDb - 7.1
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="poster">
+            <div class="flip-card_i">
+              <div class="flip-card-inner_i">
+                <div class="flip-card-front_i">
+                  <img src="/Images/Unlocked.jpg" alt="Avatar" style="width:250px;height:360px;">
+                </div>
+                <div class="flip-card-back_i">
+                  <h1>Unlocked</h1>
+                  <button class="btn_i b3_i" title="Year" style="color:white">2023</button>
+                  <button class="btn_i b2_i" title="Minutes" style="color:white">1h 57m<button>
+                      <button class="btn_i b1_i" title="IMDb" style="color:white">8.6</button>
+                      </span>
+                      <br />
+                      <br />
+                      </p>
+
+                      <p class="para_i">A woman’s life is turned upside-down when a dangerous man gets a hold of her
+                        lost cell phone and uses it to track her every move.</p>
+
+                      <form action="https://youtu.be/k8qGElYoAoU">
+                        <input class="trailer_i" type="submit" value="▶Trailer" />
+                      </form>
+
+                </div>
+                <div class="flim">
+                  <b>Unlocked</b>
+                  <br>
+                  IMDb - 8.6
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="poster">
+            <div class="flip-card_i">
+              <div class="flip-card-inner_i">
+                <div class="flip-card-front_i">
+                  <img src="/Images/alive.jpg" alt="Avatar" style="width:250px;height:360px;">
+                </div>
+                <div class="flip-card-back_i">
+                  <h1>Alive</h1>
+                  <button class="btn_i b3_i" title="Year" style="color:white">2020</button>
+                  <button class="btn_i b2_i" title="Minutes" style="color:white">1h 38m<button>
+                      <button class="btn_i b1_i" title="IMDb" style="color:white">6.3</button>
+                      </span>
+                      <br />
+                      <br />
+                      </p>
+                      <p class="para_i">As a grisly virus rampages a city, a lone man stays locked inside his apartment,
+                        digitally cut off from seeking help and desperate to find a way out.</p>
+
+                      <form action="https://youtu.be/jQ8CCg1tOqc">
+                        <input class="trailer_i" type="submit" value="▶Trailer" />
+                      </form>
+
+                </div>
+                <div class="flim">
+                  <b>Alive</b>
+                  <br>
+                  IMDb - 6.3
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="poster">
+            <div class="flip-card_i">
+              <div class="flip-card-inner_i">
+                <div class="flip-card-front_i">
+                  <img src="/Images/ashin of the north.jpg" alt="Avatar" style="width:250px;height:360px;">
+                </div>
+                <div class="flip-card-back_i">
+                  <h1>Kingdom: Ashin of the North</h1>
+                  <button class="btn_i b3_i" title="Year" style="color:white">2021</button>
+                  <button class="btn_i b2_i" title="Minutes" style="color:white">1h 33m<button>
+                      <button class="btn_i b1_i" title="IMDb" style="color:white">8.6</button>
+                      </span>
+                      <br />
+                      <br />
+                      </p>
+                      <p class="para_i">Tragedy, betrayal and a mysterious discovery fuel a woman's vengeance for the
+                        loss of her tribe and family in this special episode of "Kingdom."</p>
+
+                      <form action="https://youtu.be/0MTbuQEt_IQ">
+                        <input class="trailer_i" type="submit" value="▶Trailer" />
+                      </form>
+
+                </div>
+                <div class="flim">
+                  <b>Kingdom: Ashin of the North</b>
+                  <br>
+                  IMDb - 8.6
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="poster">
+            <div class="flip-card_i">
+              <div class="flip-card-inner_i">
+                <div class="flip-card-front_i">
+                  <img src="/Images/night in paradise.jpg" alt="Avatar" style="width:250px;height:360px;">
+                </div>
+                <div class="flip-card-back_i">
+                  <h1>Night in Paradise</h1>
+                  <button class="btn_i b3_i" title="Year" style="color:white">2020</button>
+                  <button class="btn_i b2_i" title="Minutes" style="color:white">2h 12m<button>
+                      <button class="btn_i b1_i" title="IMDb" style="color:white">8.6</button>
+                      </span>
+                      <br />
+                      <br />
+                      </p>
+                      <p class="para_i">Hiding out in Jeju Island following a brutal tragedy, a wronged mobster with a
+                        target on his back connects with a woman who has her own demons.</p>
+
+                      <form action="https://youtu.be/_Sm6_FK51VA">
+                        <input class="trailer_i" type="submit" value="▶Trailer" />
+                      </form>
+
+                </div>
+                <div class="flim">
+                  <b>Night in Paradise</b>
+                  <br>
+                  IMDb - 8.6
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="poster">
+            <div class="flip-card_i">
+              <div class="flip-card-inner_i">
+                <div class="flip-card-front_i">
+                  <img src="/Images/the eight night.jpg" alt="Avatar" style="width:250px;height:360px;">
+                </div>
+                <div class="flip-card-back_i">
+                  <h1>The 8th Night</h1>
+                  <button class="btn_i b3_i" title="Year" style="color:white">2021</button>
+                  <button class="btn_i b2_i" title="Minutes" style="color:white">1h 55m<button>
+                      <button class="btn_i b1_i" title="IMDb" style="color:white">8.6</button>
+                      </span>
+                      <br />
+                      <br />
+                      </p>
+                      <p class="para_i">With prayer beads in one hand and an ax in the other, a monk hunts down a
+                        millennia-old spirit that's possessing humans and unleashing hell on Earth.</p>
+
+                      <form action="https://youtu.be/DbYu4-XYNss">
+                        <input class="trailer_i" type="submit" value="▶Trailer" />
+                      </form>
+
+                </div>
+                <div class="flim">
+                  <b>The 8th Night</b>
+                  <br>
+                  IMDb - 7.0
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="poster">
+            <div class="flip-card_i">
+              <div class="flip-card-inner_i">
+                <div class="flip-card-front_i">
+                  <img src="/Images/time to hunt.jpg" alt="Avatar" style="width:250px;height:360px;">
+                </div>
+                <div class="flip-card-back_i">
+                  <h1>Time to Hunt</h1>
+                  <button class="btn_i b3_i" title="Year" style="color:white">2020</button>
+                  <button class="btn_i b2_i" title="Minutes" style="color:white">2h 15m<button>
+                      <button class="btn_i b1_i" title="IMDb" style="color:white">8.6</button>
+                      </span>
+                      <br />
+                      <br />
+                      </p>
+                      <p class="para_i">Wanting to leave their dystopian world behind for a faraway paradise, three
+                        outlaws plot a money heist — and draw the attention of a vicious killer.</p>
+
+                      <form action="https://youtu.be/1qFSdKY2wvk">
+                        <input class="trailer_i" type="submit" value="▶Trailer" />
+                      </form>
+
+                </div>
+                <div class="flim">
+                  <b>Time to Hunt</b>
+                  <br>
+                  IMDb - 8.6
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="poster">
+            <div class="flip-card_i">
+              <div class="flip-card-inner_i">
+                <div class="flip-card-front_i">
+                  <img src="/Images/Train to busan.jpg" alt="Avatar" style="width:250px;height:360px;">
+                </div>
+                <div class="flip-card-back_i">
+                  <h1>Train to Busan</h1>
+                  <button class="btn_i b3_i" title="Year" style="color:white">2014</button>
+                  <button class="btn_i b2_i" title="Minutes" style="color:white">169<button>
+                      <button class="btn_i b1_i" title="IMDb" style="color:white">8.6</button>
+                      </span>
+                      <br />
+                      <br />
+                      </p>
+                      <p class="para_i">As a zombie outbreak sweeps the country, a dad and his daughter take a harrowing
+                        train journey in an attempt to reach the only city that's still safe.</p>
+
+                      <form action="https://youtu.be/pyWuHv2-Abk">
+                        <input class="trailer_i" type="submit" value="▶Trailer" />
+                      </form>
+
+                </div>
+                <div class="flim">
+                  <b>Train to Busan</b>
+                  <br>
+                  IMDb - 9.3
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!---second block -->
+
+      <h2 style="text-align: center;">Kdramas</h2>
+      <hr>
+      <div class="container" id="WebSeries">
+        <hr>
+        <div class="poster-container">
+        <div class="poster">
+          <div class="flip-card_i">
+            <div class="flip-card-inner_i">
+              <div class="flip-card-front_i">
+                <img src="/Images/the glory.jpg" alt="The Glory Poster" style="width:250px;height:360px;">
+              </div>
+              <div class="flip-card-back_i">
+                <h1>The Glory</h1>
+                <button class="btn_i b3_i" title="Year" style="color:white">2022</button>
+                <button class="btn_i b2_i" title="Seasons" style="color:white">1</button>
+                <button class="btn_i b1_i" title="IMDb" style="color:white">8.1</button>
+                <br>
+                <br>
+                <p class="para_i">Years after surviving horrific abuse in high school, a woman puts an elaborate revenge scheme in motion to make the perpetrators pay for their crimes.</p>
+                <form action="https://youtu.be/tqVVrTvrI8U">
+                  <input class="trailer_i" type="submit" value="▶ Trailer" />
+                </form>
+              </div>
+              <div class="flim">
+                <b>The Glory</b>
+                <br>
+                IMDb - 8.1
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="poster">
+          <div class="flip-card_i">
+            <div class="flip-card-inner_i">
+              <div class="flip-card-front_i">
+                <img src="/Images/Nevertheless.jpg" alt="Avatar" style="width:250px;height:360px;">
+              </div>
+              <div class="flip-card-back_i">
+                <h1>Nevertheless</h1>
+                <button class="btn_i b3_i" title="Year" style="color:white">2021</button>
+                <button class="btn_i b2_i" title="Seasons" style="color:white">1</button>
+                <button class="btn_i b1_i" title="IMDb" style="color:white">7.1</button>
+               
+                <br />
+                <br />
+                </p>
+                <p class="para_i">The intoxicating charm of a flirtatious art school classmate pulls a reluctant love
+                  cynic into a friends-with-benefits relationship.</p>
+
+                <form action="https://youtu.be/0x8cJUD6MMo">
+                  <input class="trailer_i" type="submit" value="▶Trailer" />
+                </form>
+
+              </div>
+              <div class="flim">
+                <b>Nevertheless</b>
+                <br>
+                IMDb - 7.1
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="poster">
+          <div class="flip-card_i">
+            <div class="flip-card-inner_i">
+              <div class="flip-card-front_i">
+                <img src="/Images/squid game.jpg" alt="Avatar" style="width:250px;height:360px;">
+              </div>
+              <div class="flip-card-back_i">
+                <h1>Squid Game</h1>
+                <button class="btn_i b3_i" title="Year" style="color:white">2021</button>
+                <button class="btn_i b2_i" title="Seasons" style="color:white">1</button>
+                <button class="btn_i b1_i" title="IMDb" style="color:white">8.0</button>
+                </span>
+                <br />
+                <br />
+                </p>
+                <p class="para_i">Hundreds of cash-strapped players accept a strange invitation to compete in children's
+                  games. Inside, a tempting prize awaits — with deadly high stakes.</p>
+
+                <form action="https://youtu.be/oqxAJKy0ii4">
+                  <input class="trailer_i" type="submit" value="▶Trailer" />
+                </form>
+
+              </div>
+              <div class="flim">
+                <b>Squid Game</b>
+                <br>
+                IMDb - 8.0
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="poster">
+          <div class="flip-card_i">
+            <div class="flip-card-inner_i">
+              <div class="flip-card-front_i">
+                <img src="/Images/tomorrow.jpg" alt="Avatar" style="width:250px;height:360px;">
+              </div>
+              <div class="flip-card-back_i">
+                <h1>Tomorrow</h1>
+                <button class="btn_i b3_i" title="Year" style="color:white">2022</button>
+                <button class="btn_i b2_i" title="Seasons" style="color:white">1</button>
+                <button class="btn_i b1_i" title="IMDb" style="color:white">8.0</button>
+                
+                <br />
+                <br />
+                </p>
+                <p class="para_i">Made half-human and half-spirit by accident, a young man is employed by a company of
+                  grim reapers in the underworld to carry out special missions.</p>
+
+                <form action="https://youtu.be/zhmxDgBxGRk">
+                  <input class="trailer_i" type="submit" value="▶Trailer" />
+                </form>
+
+              </div>
+              <div class="flim">
+                <b>Tomorrow</b>
+                <br>
+                IMDb - 8.0
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="poster">
+          <div class="flip-card_i">
+            <div class="flip-card-inner_i">
+              <div class="flip-card-front_i">
+                <img src="/Images/Queen of tears.webp" alt="Avatar" style="width:250px;height:360px;">
+              </div>
+              <div class="flip-card-back_i">
+                <h1>Queen of Tears</h1>
+                <button class="btn_i b3_i" title="Year" style="color:white">2024</button>
+                <button class="btn_i b2_i" title="Seasons" style="color:white">1</button>
+                <button class="btn_i b1_i" title="IMDb" style="color:white">8.3</button>
+                </span>
+                <br />
+                <br />
+                </p>
+                <p class="para_i">The queen of department stores and her small-town husband weather a marital crisis
+                  —until love miraculously begins to bloom again.</p>
+
+                <form action="https://youtu.be/Gg2D8zrzlOA">
+                  <input class="trailer_i" type="submit" value="▶Trailer" />
+                </form>
+
+              </div>
+              <div class="flim">
+                <b>Queen of Tears</b>
+                <br>
+                IMDb - 8.3
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="poster">
+          <div class="flip-card_i">
+            <div class="flip-card-inner_i">
+              <div class="flip-card-front_i">
+                <img src="/Images/law school.jpg" alt="Avatar" style="width:250px;height:360px;">
+              </div>
+              <div class="flip-card-back_i">
+                <h1>Law School</h1>
+                <button class="btn_i b3_i" title="Year" style="color:white">2021</button>
+                <button class="btn_i b2_i" title="Seasons" style="color:white">1</button>
+                <button class="btn_i b1_i" title="IMDb" style="color:white">8.3</button>
+             
+                <br />
+                <br />
+                </p>
+                <p class="para_i">When a grim incident occurs at their prestigious school, justice through law is put to
+                  a test by a tough law professor and his ambitious students.</p>
+
+                <form action="https://youtu.be/sOQnqs7e-bk">
+                  <input class="trailer_i" type="submit" value="▶Trailer" />
+                </form>
+
+              </div>
+              <div class="flim">
+                <b>Law School</b>
+                <br>
+                IMDb - 8.3
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="poster">
+          <div class="flip-card_i">
+            <div class="flip-card-inner_i">
+              <div class="flip-card-front_i">
+                <img src="/Images/Kingdom.jpg" alt="Avatar" style="width:250px;height:360px;">
+              </div>
+              <div class="flip-card-back_i">
+                <h1>Kingdom</h1>
+                <button class="btn_i b3_i" title="Year" style="color:white">2019</button>
+                <button class="btn_i b2_i" title="Seasons" style="color:white">2</button>
+                <button class="btn_i b1_i" title="IMDb" style="color:white">9.0</button>
+               
+                <br />
+                <br />
+                </p>
+                <p class="para_i">While strange rumors about their ill king grip a kingdom, the crown prince becomes
+                  their only hope against a mysterious plague overtaking the land.</p>
+
+                <form action="https://youtu.be/4l-yByZpaaM">
+                  <input class="trailer_i" type="submit" value="▶Trailer" />
+                </form>
+
+              </div>
+              <div class="flim">
+                <b>Kingdom</b>
+                <br>
+                IMDb - 9.0
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="poster">
+          <div class="flip-card_i">
+            <div class="flip-card-inner_i">
+              <div class="flip-card-front_i">
+                <img src="/Images/my demon.jpg" alt="Avatar" style="width:250px;height:360px;">
+              </div>
+              <div class="flip-card-back_i">
+                <h1>My Demon</h1>
+                <button class="btn_i b3_i" title="Year" style="color:white">2023</button>
+                <button class="btn_i b2_i" title="seasons" style="color:white">1<button>
+                    <button class="btn_i b1_i" title="IMDb" style="color:white">7.7</button>
+                    
+                    <br />
+                    <br />
+                    </p>
+                    <p class="para_i">A pitiless demon becomes powerless after getting entangled with an icy heiress,
+                      who may hold the key to his lost abilities — and his heart.</p>
+
+                    <form action="https://youtu.be/D-bAfFqvxZg">
+                      <input class="trailer_i" type="submit" value="▶Trailer" />
+                    </form>
+
+              </div>
+              <div class="flim">
+                <b>My Demon</b>
+                <br>
+                IMDb - 7.7
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="poster">
+          <div class="flip-card_i">
+            <div class="flip-card-inner_i">
+              <div class="flip-card-front_i">
+                <img src="/Images/My name.jpg" alt="Avatar" style="width:250px;height:360px;">
+              </div>
+              <div class="flip-card-back_i">
+                <h1>My Name</h1>
+                <button class="btn_i b3_i" title="Year" style="color:white">2021</button>
+                <button class="btn_i b2_i" title="Seasons" style="color:white">1</button>
+                <button class="btn_i b1_i" title="IMDb" style="color:white">7.8</button>
+               
+                <br />
+                <br />
+                </p>
+                <p class="para_i">Following her father's murder, a revenge-driven woman puts her trust in a powerful
+                  crime boss — and enters the police force under his direction.</p>
+
+                <form action="https://youtu.be/MaJ7ZT70ve4">
+                  <input class="trailer_i" type="submit" value="▶Trailer" />
+                </form>
+
+              </div>
+              <div class="flim">
+                <b>My Name</b>
+                <br>
+                IMDb - 7.8
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="poster">
+          <div class="flip-card_i">
+            <div class="flip-card-inner_i">
+              <div class="flip-card-front_i">
+                <img src="/Images/vinchenzo.jpg" alt="Avatar" style="width:250px;height:360px;">
+              </div>
+              <div class="flip-card-back_i">
+                <h1>Vincenzo</h1>
+                <button class="btn_i b3_i" title="Year" style="color:white">2021</button>
+                <button class="btn_i b2_i" title="Seasons" style="color:white">1</button>
+                <button class="btn_i b1_i" title="IMDb" style="color:white">8.4</button>
+                </span>
+                <br />
+                <br />
+                </p>
+                <p class="para_i">During a visit to his motherland, a Korean-Italian mafia lawyer gives an unrivaled
+                  conglomerate a taste of its own medicine with a side of justice.</p>
+
+                <form action="https://youtu.be/_J8tYxYB_YU">
+                  <input class="trailer_i" type="submit" value="▶Trailer" />
+                </form>
+
+              </div>
+              <div class="flim">
+                <b>Vincenzo</b>
+                <br>
+                IMDb - 8.4
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+      <!---third block -->
+
+      <div class="inline-container">
+        <h2 style="text-align: center;">Kids</h2>
+        <hr>
+        <div class="container" id="Kids">
+          <hr>
+          <div class="posters-container">
+            <div class="poster">
+              <div class="flip-card_i">
+                <div class="flip-card-inner_i">
+                  <div class="flip-card-front_i">
+                    <img src="/Images/fire robo.jpg" alt="Avatar" style="width:250px;height:360px;">
+                  </div>
+                  <div class="flip-card-back_i">
+                    <h1>Fire Robo</h1>
+                    <button class="btn_i b3_i" title="Year" style="color:white">2016</button>
+                    <button class="btn_i b2_i" title="Seasons" style="color:white">1</button>
+                    <button class="btn_i b1_i" title="IMDb" style="color:white">8.4</button>
+                    </span>
+                    <br />
+                    <br />
+                    </p>
+
+                    <p class="para_i">7 years ago in a large fire, Professor Jeon lost his son and daughter-in-law
+                      compelling him to use all of his assets to create a special Firefighting force known as Firerobo.
+                     </p>
+
+                    <form action="https://youtu.be/ZaoZ9XGnv58">
+                      <input class="trailer_i" type="submit" value="▶Trailer" />
+                    </form>
+
+                  </div>
+                  <div class="flim">
+                    <b>Fire Robo</b>
+                    <br>
+                    IMDb - 8.4
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="poster">
+              <div class="flip-card_i">
+                <div class="flip-card-inner_i">
+                  <div class="flip-card-front_i">
+                    <img src="/Images/hello jadoo.jpg" alt="Avatar" style="width:250px;height:360px;">
+                  </div>
+                  <div class="flip-card-back_i">
+                    <h1>Hello Jadoo</h1>
+                    <button class="btn_i b3_i" title="Year" style="color:white">2011</button>
+                    <button class="btn_i b2_i" title="Seasons" style="color:white">2</button>
+                    <button class="btn_i b1_i" title="IMDb" style="color:white">8.7</button>
+                    </span>
+                    <br />
+                    <br />
+                    </p>
+
+                    <p class="para_i">The story is set in Seoul, South Korea in the 1980s and the 2000s, telling a
+                      pleasant and heartwarming story of Ja-doo and the people around her.</p>
+
+                    <form action="https://youtu.be/edxWv7OyYp4">
+                      <input class="trailer_i" type="submit" value="▶Trailer" />
+                    </form>
+
+                  </div>
+                  <div class="flim">
+                    <b>Hello Jadoo</b>
+                    <br>
+                    IMDb - 8.7
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="poster">
+              <div class="flip-card_i">
+                <div class="flip-card-inner_i">
+                  <div class="flip-card-front_i">
+                    <img src="/Images/larva.jpg" alt="Avatar" style="width:250px;height:360px;">
+                  </div>
+                  <div class="flip-card-back_i">
+                    <h1>Larva</h1>
+                    <button class="btn_i b3_i" title="Year" style="color:white">2011</button>
+                    <button class="btn_i b2_i" title="Minutes" style="color:white">4</button>
+                    <button class="btn_i b1_i" title="IMDb" style="color:white">7.1</button>
+                    </span>
+                    <br />
+                    <br />
+                    </p>
+
+                    <p class="para_i">Its two main characters are two larvae that never speak, although they do make
+                      expressive sounds. The cartoon exists in their small world where miniature adventures occur.</p>
+
+                    <form action="https://youtu.be/0V7KE2cHOJU">
+                      <input class="trailer_i" type="submit" value="▶Trailer" />
+                    </form>
+
+                  </div>
+                  <div class="flim">
+                    <b>Larva</b>
+                    <br>
+                    IMDb - 7.1
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="poster">
+              <div class="flip-card_i">
+                <div class="flip-card-inner_i">
+                  <div class="flip-card-front_i">
+                    <img src="/Images/paw petrol.jpg" alt="Avatar" style="width:250px;height:360px;">
+                  </div>
+                  <div class="flip-card-back_i">
+                    <h1>Paw Petrol</h1>
+                    <button class="btn_i b3_i" title="Year" style="color:white">2013</button>
+                    <button class="btn_i b2_i" title="Minutes" style="color:white">10<button>
+                        <button class="btn_i b1_i" title="IMDb" style="color:white">6.1</button>
+                        </span>
+                        <br />
+                        <br />
+                        </p>
+
+                        <p class="para_i">The series focuses on a young boy named Ryder who leads a crew of search and
+                          rescue dogs that call themselves the PAW Patrol.</p>
+
+                        <form action="https://youtu.be/eOYL8qQxxPw">
+                          <input class="trailer_i" type="submit" value="▶Trailer" />
+                        </form>
+
+                  </div>
+                  <div class="flim">
+                    <b>Paw Petrol</b>
+                    <br>
+                    IMDb - 6.1
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="poster">
+              <div class="flip-card_i">
+                <div class="flip-card-inner_i">
+                  <div class="flip-card-front_i">
+                    <img src="/Images/Pororo.webp" alt="Avatar" style="width:250px;height:360px;">
+                  </div>
+                  <div class="flip-card-back_i">
+                    <h1>Pororo</h1>
+                    <button class="btn_i b3_i" title="Year" style="color:white">2003</button>
+                    <button class="btn_i b2_i" title="Minutes" style="color:white">8<button>
+                        <button class="btn_i b1_i" title="IMDb" style="color:white">5.9</button>
+                        </span>
+                        <br />
+                        <br />
+                        </p>
+
+                        <p class="para_i">The series revolves around the adventures of a little penguin named Pororo,
+                          and his friends who live in the snowy hamlet of Porong Porong Forest, who often encounter
+                          challenges and learn practical and moral lessons in each episode.</p>
+
+                        <form action="https://youtu.be/mymy9RcSjKY">
+                          <input class="trailer_i" type="submit" value="▶Trailer" />
+                        </form>
+
+                  </div>
+                  <div class="flim">
+                    <b>Pororo</b>
+                    <br>
+                    IMDb - 5.9
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="poster">
+              <div class="flip-card_i">
+                <div class="flip-card-inner_i">
+                  <div class="flip-card-front_i">
+                    <img src="/Images/Robocar poli.jpg" alt="Avatar" style="width:250px;height:360px;">
+                  </div>
+                  <div class="flip-card-back_i">
+                    <h1>Robocar Poli</h1>
+                    <button class="btn_i b3_i" title="Year" style="color:white">2011</button>
+                    <button class="btn_i b2_i" title="Seasons" style="color:white">4<button>
+                        <button class="btn_i b1_i" title="IMDb" style="color:white">6.0</button>
+                        </span>
+                        <br />
+                        <br />
+                        </p>
+
+                        <p class="para_i">In Brooms Town, a small town with a capable rescue team, there are always
+                          accidents such as a car sliding off a cliff in the rain, a car crash, or a child locked in a
+                          firehouse. In every episode, the town's rescue team saves characters from trouble. At the end
+                          of each episode, the rescue team strongly advises the characters who are in danger, as well as
+                          the audience.</p>
+
+                        <form action="https://youtu.be/3ClUgKLLJpQ">
+                          <input class="trailer_i" type="submit" value="▶Trailer" />
+                        </form>
+
+                  </div>
+                  <div class="flim">
+                    <b>Robocar Poli</b>
+                    <br>
+                    IMDb - 6.0
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="poster">
+              <div class="flip-card_i">
+                <div class="flip-card-inner_i">
+                  <div class="flip-card-front_i">
+                    <img src="/Images/super wings.jpg" alt="Avatar" style="width:250px;height:360px;">
+                  </div>
+                  <div class="flip-card-back_i">
+                    <h1>Super Wings</h1>
+                    <button class="btn_i b3_i" title="Year" style="color:white">2013</button>
+                    <button class="btn_i b2_i" title="Seasons" style="color:white">7<button>
+                        <button class="btn_i b1_i" title="IMDb" style="color:white">6.0</button>
+                        </span>
+                        <br />
+                        <br />
+                        </p>
+
+                        <p class="para_i">The series follows a basic format, in which Jett interacts with other Super
+                          Wings at World Airport before being called to a delivery, being informed by Jimbo and given
+                          some facts about the location and a bit of the local language. Using this knowledge, he
+                          interacts with the kid or kids ordering the packages until they reach a problem, whereupon he
+                          calls for help from one or more of the Super Wings (some people ordering the packages are
+                          adults in certain episodes). The additional help would aid in solving the problem before they
+                          leave with Jett.</p>
+
+                        <form action="https://youtu.be/tAWPRlif0p0">
+                          <input class="trailer_i" type="submit" value="▶Trailer" />
+                        </form>
+
+                  </div>
+                  <div class="flim">
+                    <b>Super Wings</b>
+                    <br>
+                    IMDb - 6.0
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="poster">
+              <div class="flip-card_i">
+                <div class="flip-card-inner_i">
+                  <div class="flip-card-front_i">
+                    <img src="/Images/pinkfong.png" alt="Avatar" style="width:250px;height:360px;">
+                  </div>
+                  <div class="flip-card-back_i">
+                    <h1>Pinkfong Wonderstar</h1>
+                    <button class="btn_i b3_i" title="Year" style="color:white">2019</button>
+                    <button class="btn_i b2_i" title="Minutes" style="color:white">1</button>
+                    <button class="btn_i b1_i" title="IMDb" style="color:white">6.7</button>
+                    </span>
+                    <br />
+                    <br />
+                    </p>
+
+                    <p class="para_i">The show features the alien fox Pinkfong and his friend Hogi as the main
+                      characters. The two animal characters are an alien fox and a hedgehog who live in a town named
+                      Wonderville. These two characters interact with various people in Wonderville.</p>
+
+                    <form action="https://youtu.be/a8uu2WTnyiE">
+                      <input class="trailer_i" type="submit" value="▶Trailer" />
+                    </form>
+
+                  </div>
+                  <div class="flim">
+                    <b>Pinkfong Wonderstar</b>
+                    <br>
+                    IMDb - 6.7
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <div id="waterdrop"></div>
+
+      <!-------------------------------Footer-------------------------------->
+
+      <footer class="footer">
+        <hr class="footer-hr">
+        <div class="footer-content">
+          <div class="footer-left">
+            <a href="/register">
+              <img class="footer-logo" src="/Images/LOGO DARK.png" alt="" width="50" height="50"></a>
+            <p class="footer-bottom-tagline">Watch! Chill! Repeat!</p>
+          </div>
+          <div class="footer-middle">
+            <h2 class="footer-heading">Follow Us</h2>
+            <ul class="footer-middle-list icons">
+              <a class="footer-links" href="https://www.facebook.com/" target="_blank"><i
+                  class="fab fa-facebook-f facebook" style="color:rgb(93, 34, 93)"></i></a>
+              <a class="footer-links" href="https://twitter.com/login?lang=en" target="_blank"><i
+                  class="fab fa-twitter twitter" style="color:rgb(93, 34, 93)"></i></a>
+              <a class="footer-links" href="https://www.linkedin.com/login" target="_blank"><i
+                  class="fab fa-linkedin linkedin" style="color:rgb(93, 34, 93)"></i></a>
+              <a class="footer-links" href="https://www.instagram.com/" target="_blank"><i
+                  class="fab fa-instagram instagram" style="color:rgb(93, 34, 93)"></i></a>
+              <a class="footer-links" href="https://github.com/Shangana-Yadav/lab-assignments"
+                target="_blank"><i class="fab fa-github github" style="color:rgb(93, 34, 93)"></i></a>
+            </ul>
+          </div>
+          <div class="footer-middle">
+            <h2 class="footer-heading">Services</h2>
+            <ul class="footer-middle-list">
+              <li class="footer-middle-list-item"><a href="/register">Explore New Releases</a> </li>
+              <li class="footer-middle-list-item"><a href="/web-series">Watch Kdramas</a> </li>
+              <li class="footer-middle-list-item"><a href="/kids">Everything for Kids</a> </li>
+              <li class="footer-middle-list-item"><a href="/premium">Unlock Exclusive Features</a> </li>
+              <li class="footer-middle-list-item"><a href="/faq">Frequently Asked Questions</a> </li>
+            </ul>
+          </div>
+          <div class="footer-middle">
+            <h2 class="footer-heading">Try Our App</h2>
+            <ul class="footer-middle-list icons">
+              <a class="footer-links" href="#"><i class="fab fa-google-play" style="color:rgb(93, 34, 93)"></i></a>
+              <a class="footer-links" href="#"><i class="fab fa-app-store-ios" style="color:rgb(93, 34, 93)"></i></a>
+            </ul>
+          </div>
+          <div class="footer-right">
+            <p class="footer-links">
+            <h2 class="footer-heading">Contact Us</h2>
+            <p class="footer-bottom-tagline">Feel free to contact us.</p>
+            <a class="footer-contact-button" href="/contactus">Contact</a>
+            </p>
+          </div>
+        </div>
+        <hr class="footer-hr">
+        <div class="footer-copyright" >
+          <p>Copyright &copy; and &reg; Since
+            <script>
+              document.write(new Date().getFullYear())
+            </script> under $YkDramaBliss.com : (Project Is Done By Shangana Yadav-22IT3045).
+          </p>
+        </div>
+      </footer>
+
+      <!----------------------scroll back to top button-->
+      <button id="scrollToTopButton" title="Go to top" class="ml-5">
+        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+      </button>
+      <script>
+        $(document).ready(function () {
+          var scrollTopButton = document.getElementById("scrollToTopButton");
+          window.onscroll = function () { scrollFunction() };
+
+          function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              scrollTopButton.style.display = "block";
+            } else {
+              scrollTopButton.style.display = "none";
+            }
+          }
+
+          $("#scrollToTopButton").click(function () {
+            $('html ,body').animate({ scrollTop: 0 }, 800)
+          });
+        });
+      </script>
+
+      <!-- footer scripts -->
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+      <script src="https://daniellaharel.com/raindrops/js/raindrops.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <script src="js/main-min.js"></script>
+
+      <script>
+        jQuery('#waterdrop').raindrops({
+          color: '#292c2f',
+          canvasHeight: 150,
+          density: 0.1,
+          frequency: 20
+        });
+      </script>
+      <!-- bootsstrap JS -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+      <script src="./static/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,535 @@
+.flip-card_i {
+    position: relative;
+    background-color: transparent;
+    width: 250px;
+    height: 360px;
+    perspective: 1000px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+#variety {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-right: 20px;
+}
+
+.flip-card-inner_i {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(198, 91, 205, 0.2);
+}
+
+.flip-card_i:hover .flip-card-inner_i {
+    transform: rotateY(180deg);
+}
+
+.btn_i {
+    width: 70px;
+    height: 35px;
+    border: none;
+    border: solid 2px grey;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0);
+    font-size: 1em;
+
+}
+
+.b1_i {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.b2_i {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.b3_i {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.trailer_i {
+    width: 90px;
+    height: 35px;
+    margin-top: auto;
+    border: none;
+    border: solid 2px white;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    color: rgb(93, 34, 93);
+    font-size: 1em;
+}
+
+.para_i {
+    font-size: 0.8em;
+}
+
+.flip-card-front_i,
+.flip-card-back_i {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.form-group1_i {
+    float: left;
+}
+
+.form-group2_i {
+    float: none;
+}
+
+.form-group3_i {
+    float: right;
+}
+
+.flip-card-front_i {
+    background-color: #bbb;
+    color: rgb(93, 34, 93);
+}
+
+.flip-card-back_i {
+    width: 250px;
+    height: 360px;
+    background-image: linear-gradient(rgb(93, 34, 93), rgb(239, 132, 239));
+    color: white;
+    transform: rotateY(180deg);
+}
+
+body {
+    background-color: rgb(210, 191, 210);
+    /* Light purple color using hexadecimal notation */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.poster {
+    box-shadow: 0 0 15px rgb(195, 126, 195) !important;
+}
+
+.buddy {
+    cursor: pointer;
+    overflow: hidden;
+    /* Ensure that content doesn't overflow */
+    overflow: hidden;
+    /* Ensure that content doesn't overflow */
+    white-space: nowrap;
+    /* Prevent line breaks */
+}
+
+.slide {
+    display: inline-block;
+    /* Display images inline */
+    margin-right: 20px;
+    /* Add spacing between slides */
+    vertical-align: top;
+    /* Align images to the top */
+}
+
+/* Adjust the size of the images */
+.slide img {
+    width: 200px;
+    /* Fixed width for images */
+    height: 300px;
+    /* Fixed height for images */
+    object-fit: cover;
+    /* Maintain aspect ratio and cover entire space */
+}
+
+#scrollToTopButton {
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    font-size: 25px;
+    z-index: 99;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(239, 132, 239);
+    color: rgb(93, 34, 93);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+#scrollToTopButton:hover,
+i:hover {
+    background-color: white;
+    color: rgb(239, 132, 239);
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    padding: 0px 7.5px;
+}
+
+.container {
+    text-align: center;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    /* Set text color to white */
+}
+
+#navbarNav.nav-item.nav-link a:hover {
+    color: rgb(239, 132, 239);
+}
+
+.nav-link:hover {
+    color: rgb(239, 132, 239);
+}
+
+.nav-item :hover {
+    margin-bottom: 10px;
+}
+
+#header-nav .navbar-nav .nav-item .nav-link:hover {
+    color: rgb(239, 132, 239);
+    text-decoration: none;
+    /* Remove underline */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+    /* Add transition effect */
+    text-shadow: 0 0 10px rgb(239, 132, 239);
+    /* Add glowing effect */
+}
+
+i:hover {
+    background-color: white;
+    color: rgb(239, 132, 239);
+}
+
+.maincontainer h3 {
+    color: white;
+    text-align: center;
+}
+
+.poster {
+    margin-left: 85px;
+}
+
+.container {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.posters-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    /* Hide vertical scroll bar */
+    margin-bottom: 10px;
+}
+
+.poster {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    width: 300px;
+    /* Adjusted size for the posters */
+}
+
+#waterdrop {
+    display: none;
+    /* Hide waterdrop as it's not specified how it should be displayed */
+}
+
+.maincontainer {
+    width: 100%;
+    padding: 0 20px;
+    /* Adjust padding as needed */
+    box-sizing: border-box;
+
+}
+
+.container {
+    margin-bottom: 20px;
+    /* Adjust margin as needed */
+}
+
+.posters-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    /* Enable smooth scrolling on iOS */
+}
+
+.poster {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    width: calc(25% - 10px);
+    /* Adjust width as needed */
+}
+
+.poster:last-child {
+    margin-right: 0;
+}
+
+.poster img {
+    width: 100%;
+    height: auto;
+}
+
+#WebSeries {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    /* Hide vertical scroll bar */
+    white-space: nowrap;
+    /* Prevent wrapping of inline elements */
+}
+
+.poster {
+    display: inline-block;
+    width: 250px;
+    /* Adjusted size for the posters */
+    margin-right: 10px;
+}
+
+/* Button */
+.btn-outline-purple {
+    color: #EF84EF;
+    border-color: #EF84EF;
+}
+
+/* Dropdown button */
+.btn-outline-purple.dropdown-toggle::after {
+    border-top-color: #EF84EF;
+    border-right-color: #EF84EF;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+    background-color: #EF84EF;
+    color: white;
+}
+
+/* Dropdown menu items */
+.dropdown-menu .dropdown-item {
+    color: white;
+}
+
+/* Search button */
+.btn-danger {
+    background-color: #EF84EF;
+    border-color: #EF84EF;
+}
+
+/* Search button on hover */
+.btn-danger:hover {
+    background-color: #d453d4;
+    border-color: #d453d4;
+}
+
+/* Button text color */
+.btn-outline-purple {
+    color: #EF84EF;
+}
+
+/* Button border color */
+.btn-outline-purple {
+    border-color: #EF84EF;
+}
+.btn-outline-danger {
+    color: rgb(239, 132, 239);
+    /* Text color */
+    border-color: rgb(239, 132, 239);
+    /* Border color */
+    background-color: transparent;
+    /* Transparent background */
+}
+
+.btn-outline-danger:hover {
+    color: #fff;
+    /* Text color on hover */
+    background-color: rgb(239, 132, 239);
+    /* Background color on hover */
+    border-color: rgb(239, 132, 239);
+    /* Border color on hover */
+}
+
+.dropdown-toggle.btn-outline-danger:focus {
+    color: #fff;
+    /* Text color when focused */
+    background-color: rgb(93, 34, 93);
+    /* Background color when focused */
+    border-color: rgb(93, 34, 93);
+    /* Border color when focused */
+    border-color: rgb(239, 132, 239);
+    box-shadow: none;
+}
+
+.dropdown-toggle.btn-outline-danger:focus::after {
+    color: #fff;
+    /* Dropdown arrow color when focused */
+}
+
+.dropdown-menu.show {
+    background-color: rgb(93, 34, 93);
+    /* Dropdown menu background color */
+    border-color: rgb(93, 34, 93);
+    /* Dropdown menu border color */
+}
+
+.btn-danger {
+    color: rgb(239, 132, 239);
+    /* Text color */
+    border-color: rgb(239, 132, 239);
+    /* Border color */
+    background-color: transparent;
+    /* Transparent background */
+}
+
+.btn-danger:hover {
+    color: #fff;
+    /* Text color on hover */
+    background-color: rgb(239, 132, 239);
+    /* Background color on hover */
+    border-color: rgb(239, 132, 239);
+    /* Border color on hover */
+}
+.para_i {
+    word-wrap: break-word; /* Ensure long words break and wrap */
+}
+
+.poster-container {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px; /* Add some spacing between poster containers */
+  }
+
+  
+
+  .poster-container:hover .flip-card-back_i {
+    opacity: 1;
+  }
+
+  .poster-container .flip-card-back_i p {
+    margin: 0;
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+    white-space: wrap;
+  }
+
+/* <!------------------------Footer Css------------------------------------------------> */
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-left,
+.footer-middle,
+.footer-right {
+    /* flex-basis: calc(20% - 10px); Adjust as needed */
+    flex: 1;
+    margin: 20px;
+}
+
+.footer-middle ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-middle-list.icons li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-middle-list.icons li:last-child {
+    margin-right: 0;
+}
+
+.footer-logo {
+    /* vertical-align: middle; */
+    display: block;
+    /* Ensures the image is centered properly */
+    margin: 0 auto;
+    /* Centers the image horizontally */
+}
+
+.footer-hr {
+    width: 100%;
+}
+
+.inline-container {
+    display: inline-block;
+    width: 100%;
+    /* Adjusted to occupy the full width */
+    vertical-align: top;
+}
+
+.footer-heading {
+    text-align: center;
+}
+
+.footer-middle-list,
+.footer-middle-list.icons {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.footer-links {
+    display: inline-block;
+    margin: 5px;
+}
+
+.footer-contact-button {
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    background-color: rgb(93, 34, 93);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.footer-middle-list-item a {
+    color: black;
+    /* Set initial color to white */
+    text-decoration: none;
+    /* Remove underline */
+    transition: color 0.3s;
+    /* Add transition effect for color change */
+}
+
+.footer-middle-list-item a:hover {
+    color: rgb(93, 34, 93)F;
+    /* Change color to purple on hover */
+}
+
+#waterdrop {
+    display: none;
+    /* Hide waterdrop as it's not specified how it should be displayed */
+}
+.play-button_i img {
+    width: 80px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    margin: 5px;
+    padding: 5px;
+    
+}

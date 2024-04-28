@@ -1,0 +1,33 @@
+
+.logo {
+    /* Define styles for the logo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Full viewport height */
+    animation: logoAnimation 3s ease forwards;
+    /* Apply animation */
+}
+
+/* Define CSS animation keyframes */
+@keyframes logoAnimation {
+    0% {
+        transform: scale(0) rotate(0deg);
+        /* Start with no scale and no rotation */
+        opacity: 0;
+        /* Start with no opacity */
+    }
+
+    100% {
+        transform: scale(1) rotate(360deg);
+        /* End with full scale and one full rotation */
+        opacity: 1;
+        /* End with full opacity */
+    }
+}
+
+body {
+    background-color: rgb(210, 191, 210);
+    /* Light purple color using hexadecimal notation */
+}

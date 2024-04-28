@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.85) ),url("/Images/kdrama.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+      }
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgb(93, 34, 93);
+    border-radius: 5px;
+}
+
+.form-container,
+.form-container label,
+
+.form-container button,
+.form-container p,
+.form-container a {
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid rgb(93, 34, 93);
+    border-radius: 3px
+}
+
+.form-container a:hover {
+    color: rgb(239, 132, 239);
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(93, 34, 93);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: rgb(239, 132, 239);
+}
+
+p {
+    margin-top: 15px;
+}

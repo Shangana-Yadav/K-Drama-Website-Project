@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>$YkDramaBliss</title>
+
+    <!-- Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/Images/LOGO.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./static/style.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="static/bootstrap.min.css">
+    <link rel="stylesheet" href="static/style-min.css">
+    <link rel="stylesheet" href="/card.css">
+
+
+</head>
+<!------------------------Scroll to top button------------------------------------------------>
+
+<body>
+    <div class="scroll-bar">
+        <!-- Navbar starts  -->
+        <nav class="menu navbar navbar-expand-lg navbar-light bg-dark" id="header-nav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/"><img class="logo" src="/Images/LOGO.png" alt="" width="30"
+                        height="24"></a>
+                <button class="navbar-toggler" id="nav" style="background-color: rgb(239, 132, 239)" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" style="background-color:dark-grey;"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" style>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/movies">Movies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/web-series">Kdramas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/kids">Kids</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/tv">TV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/premium">Premium</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/login">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contactus">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <!-- off canva starts -->
+
+                    <a class="btn btn-outline-purple" id="variety" data-bs-toggle="offcanvas" href="#offcanvasExample"
+                        role="button" aria-controls="offcanvasExample" style="margin: 10">
+                        Have a Look at Various Kdramas!
+                    </a>
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                        aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header" style="color: #fff; background-color: #EF84EF">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Varieties</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body" style="color: aliceblue; background-color: #5D225D;">
+                            <div>
+                                Stream Latest kDramas Now!
+                            </div>
+                            <div class="dropdown mt-3">
+                                <button class="btn btn-outline-danger dropdown-toggle" type="button"
+                                    id="dropdownMenuButton" data-bs-toggle="dropdown">
+                                    Varieties
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton"
+                                    style="background-color:#EF84EF; color: white; ">
+                                    <li><a class="dropdown-item" href="/popular">Popular</a> </li>
+                                    <li><a class="dropdown-item" href="/crime">Crime</a></li>
+                                    <li><a class="dropdown-item" href="/suspense" style="font-size: 14px">Suspense & Thriller</a></li>
+                                    <li><a class="dropdown-item" href="/action">Action</a></li>
+                                    <li><a class="dropdown-item" href="/fantasy" style="font-size: 14px">Sci-Fi & Fantasy</a></li>
+                                    <li><a class="dropdown-item" href="/horror">Horror</a></li>
+                                    <li><a class="dropdown-item" href="/drama">Drama</a></li>
+                                    <li><a class="dropdown-item" href="/comedy">Comedy</a></li>
+                                    <li><a class="dropdown-item" href="/romance">Romance</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- off canva ends -->
+                    <form id="searchForm" class="d-flex">
+                        <input class="form-control me-2" type="text" id="searchText" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-danger" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Navbar Ends  -->
+
+        <div class="maincontainer">
+            <div class="container">
+                <div id="movies" class="row"></div>
+            </div>
+            <hr>
+            <h2>Suspense</h2>
+            <hr>
+            <div class="container" id="Movies">
+                <div class="poster">
+                    <div class="flip-card_i">
+                        <div class="flip-card-inner_i">
+                            <div class="flip-card-front_i">
+                                <img src="/Images/The call.jpg" alt="Avatar" style="width:250px;height:360px;">
+                            </div>
+                            <div class="flip-card-back_i">
+                                <h1>The Call</h1>
+                                <button class="btn_i b3_i" title="Year" style="color:white">2020</button>
+                                <button class="btn_i b2_i" title="Minutes" style="color:white">1h 52m<button>
+                                        <button class="btn_i b1_i" title="IMDb" style="color:white">9.3</button>
+                                        </span>
+                                        <br />
+                                        <br />
+                                        </p>
+                                        <p class="para_i" style="margin-top: -20px;">Connected by phone in the same home
+                                            but 20 years
+                                            apart, a serial killer puts another woman’s past — and life — on the line to
+                                            change her own
+                                            fate.</p>
+                                        <button class="trailer_i" type="submit" value=""
+                                            onclick="openWin()">▶Trailer</button>
+                                        <script type="text/javascript">
+                                            function openWin() {
+                                                window.open("https://youtu.be/hxkKeniT-0Q", "_blank", "top=100,left=250,height=400,width=600,channelmode=yes,fullscreen=yes,menubar=no,toolbar=no,location=no,status=no,scrollbars=no,noopener=no");
+                                            }
+                                        </script><br> <br>
+                                        <button class="btn_i b4_i">▶Play</button>
+                            </div>
+
+                        </div>
+                        <div class="flim">
+                            <b>The Call</b>
+                            <br>
+                            IMDb - 7.1
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="poster">
+                    <div class="flip-card_i">
+                      <div class="flip-card-inner_i">
+                        <div class="flip-card-front_i">
+                          <img src="/Images/Parasite.jpg" alt="Avatar" style="width:250px;height:360px;">
+                        </div>
+                        <div class="flip-card-back_i">
+                          <h1>Parasite</h1>
+                          <button class="btn_i b3_i" title="Year" style="color:white">2019</button>
+                          <button class="btn_i b2_i" title="Minutes" style="color:white">2h 12m<button>
+                              <button class="btn_i b1_i" title="IMDb" style="color:white">8.6</button>
+                              </span>
+                              <br />
+                              <br />
+                              </p>
+                              <p class="para_i">The struggling Kim family sees an opportunity when the son starts working for
+                                the wealthy Park family. Soon, all of them find a way to work within the same household and
+                                start living a parasitic life.</p>
+
+                                <button class="trailer_i" type="submit" value="" onclick="openWin1()">▶Trailer</button>
+                                <script type="text/javascript">
+                                    function openWin1() {
+                                        window.open("https://youtu.be/SEUXfv87Wpk", "_blank", "top=100,left=250,height=400,width=600,channelmode=yes,fullscreen=yes,menubar=no,toolbar=no,location=no,status=no,scrollbars=no,noopener=no");
+                                    }
+                                </script><br> <br>
+                                <button class="btn_i b4_i">▶Play</button>
+
+                            </div>
+                        </div>
+                        <div class="flim">
+                            <b>Parasite</b>
+                            <br>
+                            IMDb - 8.6
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="poster">
+                    <div class="flip-card_i">
+                      <div class="flip-card-inner_i">
+                        <div class="flip-card-front_i">
+                          <img src="/Images/Unlocked.jpg" alt="Avatar" style="width:250px;height:360px;">
+                        </div>
+                        <div class="flip-card-back_i">
+                          <h1>Unlocked</h1>
+                          <button class="btn_i b3_i" title="Year" style="color:white">2023</button>
+                          <button class="btn_i b2_i" title="Minutes" style="color:white">1h 57m<button>
+                              <button class="btn_i b1_i" title="IMDb" style="color:white">8.6</button>
+                              </span>
+                              <br />
+                              <br />
+                              </p>
+        
+                              <p class="para_i">A woman’s life is turned upside-down when a dangerous man gets a hold of her
+                                lost cell phone and uses it to track her every move.</p>
+
+                                        <button class="trailer_i" type="submit" value=""
+                                            onclick="openWin7()">▶Trailer</button>
+                                        <script type="text/javascript">
+                                            function openWin7() {
+                                                window.open("https://youtu.be/k8qGElYoAoU", "_blank", "top=100,left=250,height=400,width=600,channelmode=yes,fullscreen=yes,menubar=no,toolbar=no,location=no,status=no,scrollbars=no,noopener=no");
+                                            }
+                                        </script><br> <br>
+                                        <button class="btn_i b4_i">▶Play</button>
+                            </div>
+
+                        </div>
+                        <div class="flim">
+                            <b>Unlocked</b>
+                  <br>
+                  IMDb - 8.6
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="poster">
+                    <div class="flip-card_i">
+                      <div class="flip-card-inner_i">
+                        <div class="flip-card-front_i">
+                          <img src="/Images/squid game.jpg" alt="Avatar" style="width:250px;height:360px;">
+                        </div>
+                        <div class="flip-card-back_i">
+                          <h1>Squid Game</h1>
+                          <button class="btn_i b3_i" title="Year" style="color:white">2021</button>
+                          <button class="btn_i b2_i" title="Seasons" style="color:white">1</button>
+                          <button class="btn_i b1_i" title="IMDb" style="color:white">8.0</button>
+                          </span>
+                          <br />
+                          <br />
+                          </p>
+                          <p class="para_i">Hundreds of cash-strapped players accept a strange invitation to compete in children's
+                            games. Inside, a tempting prize awaits — with deadly high stakes.</p>
+
+                                        <button class="trailer_i" type="submit" value=""
+                                            onclick="openWin7()">▶Trailer</button>
+                                        <script type="text/javascript">
+                                            function openWin7() {
+                                                window.open("https://youtu.be/oqxAJKy0ii4", "_blank", "top=100,left=250,height=400,width=600,channelmode=yes,fullscreen=yes,menubar=no,toolbar=no,location=no,status=no,scrollbars=no,noopener=no");
+                                            }
+                                        </script><br> <br>
+                                        <button class="btn_i b4_i">▶Play</button>
+                            </div>
+
+                        </div>
+                        <div class="flim">
+                            <b>Squid Game</b>
+                  <br>
+                  IMDb - 8.0
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="poster">
+                    <div class="flip-card_i">
+                      <div class="flip-card-inner_i">
+                        <div class="flip-card-front_i">
+                          <img src="/Images/alive.jpg" alt="Avatar" style="width:250px;height:360px;">
+                        </div>
+                        <div class="flip-card-back_i">
+                          <h1>Alive</h1>
+                          <button class="btn_i b3_i" title="Year" style="color:white">2020</button>
+                          <button class="btn_i b2_i" title="Minutes" style="color:white">1h 38m<button>
+                              <button class="btn_i b1_i" title="IMDb" style="color:white">6.3</button>
+                              </span>
+                              <br />
+                              <br />
+                              </p>
+                              <p class="para_i">As a grisly virus rampages a city, a lone man stays locked inside his apartment,
+                                digitally cut off from seeking help and desperate to find a way out.</p>
+
+
+                                        <button class="trailer_i" type="submit" value=""
+                                            onclick="openWin8()">▶Trailer</button>
+                                        <script type="text/javascript">
+                                            function openWin8() {
+                                                window.open("https://youtu.be/jQ8CCg1tOqc", "_blank", "top=100,left=250,height=400,width=600,channelmode=yes,fullscreen=yes,menubar=no,toolbar=no,location=no,status=no,scrollbars=no,noopener=no");
+                                            }
+                                        </script><br> <br>
+                                        <button class="btn_i b4_i">▶Play</button>
+                            </div>
+
+                        </div>
+                        <div class="flim">
+                            <b>Alive</b>
+                            <br>
+                            IMDb - 6.3
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-------------------------------Footer-------------------------------->
+
+    <footer class="footer">
+        <hr class="footer-hr">
+        <div class="footer-content">
+            <div class="footer-left">
+                <a href="/register">
+                    <img class="footer-logo" src="/Images/LOGO DARK.png" alt="" width="50" height="50"></a>
+                <p class="footer-bottom-tagline">Watch! Chill! Repeat!</p>
+            </div>
+            <div class="footer-middle">
+                <h2 class="footer-heading">Follow Us</h2>
+                <ul class="footer-middle-list icons">
+                    <a class="footer-links" href="https://www.facebook.com/" target="_blank"><i
+                            class="fab fa-facebook-f facebook" style="color:rgb(93, 34, 93)"></i></a>
+                    <a class="footer-links" href="https://twitter.com/login?lang=en" target="_blank"><i
+                            class="fab fa-twitter twitter" style="color:rgb(93, 34, 93)"></i></a>
+                    <a class="footer-links" href="https://www.linkedin.com/login" target="_blank"><i
+                            class="fab fa-linkedin linkedin" style="color:rgb(93, 34, 93)"></i></a>
+                    <a class="footer-links" href="https://www.instagram.com/" target="_blank"><i
+                            class="fab fa-instagram instagram" style="color:rgb(93, 34, 93)"></i></a>
+                    <a class="footer-links" href="https://github.com/Shangana-Yadav/lab-assignments" target="_blank"><i
+                            class="fab fa-github github" style="color:rgb(93, 34, 93)"></i></a>
+                </ul>
+            </div>
+            <div class="footer-middle">
+                <h2 class="footer-heading">Services</h2>
+                <ul class="footer-middle-list">
+                    <li class="footer-middle-list-item"><a href="/register">Explore New Releases</a> </li>
+                    <li class="footer-middle-list-item"><a href="/web-series">Watch Kdramas</a> </li>
+                    <li class="footer-middle-list-item"><a href="/kids">Everything for Kids</a> </li>
+                    <li class="footer-middle-list-item"><a href="/premium">Unlock Exclusive Features</a> </li>
+                    <li class="footer-middle-list-item"><a href="/faq">Frequently Asked Questions</a> </li>
+                </ul>
+            </div>
+            <div class="footer-middle">
+                <h2 class="footer-heading">Try Our App</h2>
+                <ul class="footer-middle-list icons">
+                    <a class="footer-links" href="#"><i class="fab fa-google-play"
+                            style="color:rgb(93, 34, 93)"></i></a>
+                    <a class="footer-links" href="#"><i class="fab fa-app-store-ios"
+                            style="color:rgb(93, 34, 93)"></i></a>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <p class="footer-links">
+                <h2 class="footer-heading">Contact Us</h2>
+                <p class="footer-bottom-tagline">Feel free to contact us.</p>
+                <a class="footer-contact-button" href="/contactus">Contact</a>
+                </p>
+            </div>
+        </div>
+        <hr class="footer-hr">
+        <div class="footer-copyright">
+            <p>Copyright &copy; and &reg; Since
+                <script>
+                    document.write(new Date().getFullYear())
+                </script> under $YkDramaBliss.com : (Project Is Done By Shangana Yadav-22IT3045).
+            </p>
+        </div>
+    </footer>
+
+    <!----------------------scroll back to top button-->
+    <button id="scrollToTopButton" title="Go to top" class="ml-5">
+        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+    </button>
+    <script>
+        $(document).ready(function () {
+            var scrollTopButton = document.getElementById("scrollToTopButton");
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    scrollTopButton.style.display = "block";
+                } else {
+                    scrollTopButton.style.display = "none";
+                }
+            }
+
+            $("#scrollToTopButton").click(function () {
+                $('html ,body').animate({ scrollTop: 0 }, 800)
+            });
+        });
+    </script>
+
+    <!-- footer scripts -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="https://daniellaharel.com/raindrops/js/raindrops.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/main-min.js"></script>
+
+    <script>
+        jQuery('#waterdrop').raindrops({
+            color: '#292c2f',
+            canvasHeight: 150,
+            density: 0.1,
+            frequency: 20
+        });
+    </script>
+    <!-- bootsstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="./static/script.js"></script>
+</body>
+
+</html>
