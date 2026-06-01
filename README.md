@@ -5,13 +5,13 @@ A responsive and user-friendly web application designed for K-Drama enthusiasts 
 🚀 **Features**  
   - Browse a collection of popular K-Dramas  
   - View drama details, ratings, and descriptions  
-  -Responsive design for desktop and mobile devices  
-  -Interactive and visually appealing user interface  
-  -Easy navigation and search functionality  
-  -Dynamic content rendering using JavaScript
+  - Responsive design for desktop and mobile devices  
+  - Interactive and visually appealing user interface  
+  - Easy navigation and search functionality  
+  - Dynamic content rendering using JavaScript
 
 🛠️ **Tech Stack**  
-  -HTML5  
-  -CSS3  
-  -JavaScript  
-  -Git & GitHub
+  - HTML5  
+  - CSS3  
+  - JavaScript  
+  - Git & GitHub
