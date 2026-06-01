@@ -2,9 +2,8 @@
 
 A responsive and user-friendly web application designed for K-Drama enthusiasts to explore popular Korean dramas, view detailed information, and discover new shows through an engaging interface.
 
-🚀 **Features**
-
-Browse a collection of popular K-Dramas
+🚀 **Features**  
+  Browse a collection of popular K-Dramas
 
 View drama details, ratings, and descriptions
 
